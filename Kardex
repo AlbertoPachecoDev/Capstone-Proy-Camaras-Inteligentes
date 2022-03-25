@@ -1,0 +1,117 @@
+## I. Introducción
+Este documento tiene como propósito informar al equipo de Código IoT las características de las componentes que debe incluir el kardex de un curso.
+
+Un kardex es el documento con todos los detalles técnicos para operar el curso. Detalles como: la descripción del curso, el temario, objetivos, justificación, etc.
+
+## II. Alcances
+Un kardex es un documento que debe revisar todo el equipo, por lo cual se detallan las secciones que componen un kardex y el responsable de cada sección.
+
+## III. Formatos de archivos
+Los formatos de archivos de texto deben ser en Libre Office.
+
+El formato del kardex se realizará según el documento Kardex–Formato.
+
+## IV. Contenidos
+Un Kardex debe contar con los siguientes componentes.
+
+Nombre del curso. Es el nombre publico del curso.
+
+Fecha de publicación. De acuerdo a la planeación y calendarización se estima la fecha de publicación del curso con anticipación. Esta fecha debe ser actualizada en caso de cambiar. Debe seguirse el siguiente formato.
+
+Descripción. La descripción debe ser un texto atractivo que responda a las siguientes preguntas
+
+¿Cuál es el nombre del curso?
+
+¿Cuál es el nombre del patrocinador, proyecto o unidad de negocios que publica?
+
+¿Cuáles son los temas, problemas o contenidos a tratar en el curso?
+
+¿Cuál es el enfoque de desarrollo del curso?
+
+¿Es un curso gratuito? Agregar únicamente en caso de que la respuesta sea si.
+
+¿Cuáles son las herramientas principales a usar?
+
+¿Cuáles son los resultados que se espera tener al tomar este curso?
+
+Aplicaciones. Describe las aplicaciones generales y especificas de lo que se vaya a aprender y/o realizar en el curso.
+
+Objetivo genera. Describe el objetivo general del curso, generalmente comienza por un verbo.
+
+Objetivos específicos. Describe todos los objetivos específicos. Generalmente son todas las habilidades aprendidas y/o todos los prototipos a realizar.
+
+Justificación. Describe las motivaciones de la empresa, de la unidad de negocios, de la academia y/o de la industria para crear este curso, se describe con lenguaje enfocado a que los aspirantes se sientan beneficiados de tomar el curso para aprender las habilidades que se desarrollarán de llevarse a cabo de manera exitosa.
+
+Formato de toma de curso. Todos los cursos deben ser desarrollados para poderse llevar a cabo en todos los modelos que se manejan: presencial, en linea con profesor en vivo, auto estudio, master class, open class, híbrido. Los formatos disponibles los determina la estrategia de dirección, reporta Encargado de proyecto. Preferentemente Open Class.
+
+Presencial. Puede ser en la Ciudad de México en las Instalaciones de Código IoT o las instalaciones de la institución en cualquier parte de la república y el mundo, unicamente en caso de que la institución cubra todos los gastos de transporte, hospedaje y viáticos.
+
+En linea con Profesor en vivo. La clase se da en un horario específico por un tiempo determinado, el Docentes da una clase tradicional en linea.
+
+Auto estudio. Los aspirantes deberán leer todos los contenidos y realizar los ejercicios por su cuenta. Tienen acceso a asesoría de un Profesor en horarios acordados.
+
+Master Class. Formato en video llamada, clase única o periódica, clase tradicional en vivo con mas de 15 alumnos conectados, dudas se van a foros.
+
+Open Class, Formato en linea, clases pre grabadas, los alumnos deben prepararse revisando el contenido y realizando instalaciones y ejercicios. Profesores en linea en horarios específicos orientado a detallar temas y resolver dudas especificas con registro final en foros.
+
+Híbrido. Combinación de formatos en linea con formatos presenciales.
+
+Contenido Temático. Consiste en un trabajo en equipo donde propone el Profesor y da estructura Diseño Instruccional.
+
+Productos. Consiste en un trabajo en equipo donde propone el Profesor y da estructura Diseño Instruccional. Generalmente se describen los productos y prototipos a realizar.
+
+Alcances. Consiste en un trabajo en equipo donde propone el Profesor y da estructura Diseño Instruccional. Generalmente se describen las acotaciones temáticas en función del nivel de dificultad del curso y los productos a realizar. Debe ser escrito de manera ta que las instituciones puedan determinar los perfiles que deberían tomar este curso.
+
+Audiencia. Diseño Instruccional propone según la visión estratégica de dirección y Docentes amplía según conocimiento técnico de los contenidos desarrollados. Este texto debe invitar a la mayor cantidad de personas a tomar el curso. Texto recomendado a complementar y contextualizar:
+
+Este contenido está dirigido a personas que buscan soluciones directas e innovadoras a problemas comunes, como son:
+
+Interesados en tener su primer acercamiento con el Internet de las Cosas.
+
+Interesados en tecnologías de la comunicación.
+
+Suscriptores de Código IoT.
+
+Personas que deseen innovar y/o generar soluciones disruptivas.
+
+Profesionales con experiencia básica (o mejor) en programación y uso de microcontroladores.
+
+Programadores interesados en actualizar sus conocimientos e incrementar sus competencias laborales.
+
+Interesados en hacer uso del Internet de las Cosas desde Linux, Raspberry Pi y ESP32.
+
+Es muy importante mencionar las herramientas de hardware y algunas de las aplicaciones mas destacadas a realizar.
+
+Requisitos. El profesor responsable del desarrollo del curso debe escribir aquí todos los conocimientos recomendados a tener antes de tomar el curso, de preferencia, haciendo referencia a los contenidos ya presentes en la plataforma. También es muy importante poner los requerimientos de infraestructura, como las características del equipo PC, configuraciones de red, etc.
+
+Información Adicional. Propone el Profesor que desarrolla el curso, revisa Diseño Instruccional y Encargado del Proyecto según la visión estratégica de Dirección. EL texto debe incluir al menos Nivel de dificultad y apertura de curso.
+
+Software. El profesor encargado enlista todo el software requerido para la realización del curso. Se deben tomar en cuenta las generalidades de uso de software para cursos.
+
+Se recomienda el uso de software libre en medida de lo posible
+
+Todos los ejercicios se estandarizan a llevarse a cabo en una maquina virtual basada en Virtual Box o Virtual Machine Manager con Ubuntu 20.04LTS
+
+La IDE recomendada es Visual Studio Code
+
+El lenguaje de programación recomendado para micro computadoras es Python
+
+El lenguaje de programación recomendado para Servicios es Java Script
+
+El lenguaje de programación para micro controladores es Arduino
+
+Se recomienda basarse en el modelo de concentración de datos por servidor TCP, transmisión por MQTT y administración con NodeRed.
+
+El visualizador de datos recomendado es Grafana
+
+La base de datos recomendada es MariaDB y MongoDB según el caso.
+
+Hardware. El profesor encargado enlista todo el hardware requerido para la realización del curso. Se deben tomar en cuenta las generalidades de manejo de hardware.
+
+Se recomienda el uso de ESP32 sobre Arduino
+
+Se recomienda el uso de Particle Photon sobre Arduino
+
+Se recomienda el uso de Raspberry Pi en caso de requerirse micro computadoras.
+
+Se recomienda el uso de Hardware Libre.
