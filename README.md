@@ -21,6 +21,9 @@ El sistema consiste en un conjunto de cámaras de video (ESP32-Cam) capaces de s
 - Triangular fuente
 - Funciones de control y alerta
 
+### Red de sensores vía I2C
+
+![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/09/I2C-communication-protocol-ESP32.png?quality=100&strip=all&ssl=1)
 
 ### Tareas:
  1. Capturar señal micrófono
@@ -38,8 +41,6 @@ El sistema consiste en un conjunto de cámaras de video (ESP32-Cam) capaces de s
 13. Tomar foto(s)
 14. Grabar foto(s) en sd-card
 15. Notificar evento MQTT
-
-
 
 ### Componentes:
 
@@ -59,3 +60,8 @@ Arreglo de micrófonos vía I2C:
 
 ![image](https://user-images.githubusercontent.com/80423661/160221127-5ddf85e7-97df-4790-93e5-e60db830fa95.png)
 
+3. [PCF8574 I2C Port Expander](https://create.arduino.cc/projecthub/Samhain/pcf8574-expander-with-4-inputs-4-outputs-9a80ef)
+
+https://www.instructables.com/PCF8574-GPIO-Extender-With-Arduino-and-NodeMCU/
+
+![](https://www.pcboard.ca/image/catalog/products/pcf8574/pcf8574-addressing.jpg)
