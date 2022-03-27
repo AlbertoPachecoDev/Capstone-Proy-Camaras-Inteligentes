@@ -17,6 +17,31 @@ El control automatizado de registro visual y auditivo se efectua en base al proc
 
 ![](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/72070e9e05f125d2737b1563c9dbbdb86ad8301a/CamaraMotorizada-demo-i2c.png)
 
+### Tareas:
+- Integrante #1:
+>
+> 1. Capturar señal micrófono
+> 2. Capturar señal detector presencia
+> 3. Analizar señales
+> 4. Obtener hora/día del RTC
+> 5. Noche? encender luz 
+
+- Integrante #2:
+>
+> 6. Grabar señales (audio) 
+> 7. Transmitir datos evento(s) por I2C
+> 8. Identificar y seleccionar evento 
+> 9. Notificar evento: alerta local
+> 10. Notificar evento MQTT
+
+- Integrante #3:
+>
+> 11. Grabar evento en datalog (sd-card)
+> 13. Seleccionar cámara y calcular posición
+> 14. Mover cámara (motor-pasos)
+> 15. Tomar foto(s)
+> 16. Grabar foto(s) en sd-card
+
 ### Requerimientos de Complejidad:
 
 80% Análisis Datos:  Análisis señales captadas
@@ -29,23 +54,6 @@ El control automatizado de registro visual y auditivo se efectua en base al proc
 ### Red de sensores vía I2C
 
 ![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/09/I2C-communication-protocol-ESP32.png?quality=50&strip=all&ssl=1)
-
-### Tareas:
- 1. Capturar señal micrófono
- 2. Capturar señal detector presencia
- 3. Analizar señales
- 4. Obtener hora/día del RTC
- 5. Noche? encender luz 
- 6. Grabar señales (audio) 
- 7. Transmitir datos evento(s) por I2C
- 8. Identificar y seleccionar evento 
- 9. Notificar evento: alerta local
-10. Grabar evento en datalog (sd-card) 
-11. Seleccionar cámara y calcular posición
-12. Mover cámara (motor-pasos)
-13. Tomar foto(s)
-14. Grabar foto(s) en sd-card
-15. Notificar evento MQTT
 
 ### Componentes:
 
