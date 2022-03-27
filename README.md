@@ -15,9 +15,7 @@ Implementar un sistema de iluminación y vigilancia basado en arreglo de sensore
 
 El control automatizado de registro visual y auditivo se efectua en base al procesamiento de datos recolectados en un arreglo de micrófonos y sensores de presencia. Los micrófonos y detectores de presencia ubicados en los extremos de las zonas de interés, permiten iluminar las zonas activadas y controlar en base al análisis de los datos captados, la posición de la cámara activando el respectivo motor CD de forma continua y en tiempo real. El registro visual y auditivo del evento solo se efectúa cuando se activa y posiciona la cámara, optimizando de esta forma la seguridad, almacenamiento y uso de energía.
 
-<center>
-![](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/72070e9e05f125d2737b1563c9dbbdb86ad8301a/CamaraMotorizada-demo-i2c.png)
-</center>
+  > ![](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/72070e9e05f125d2737b1563c9dbbdb86ad8301a/CamaraMotorizada-demo-i2c.png)
 
 ### Tareas:
 - Integrante #1:
