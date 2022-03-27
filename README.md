@@ -6,6 +6,8 @@
 
 ### Integrantes:
  - Representante: Alberto Pacheco González (UACH)
+ - Integrante #2
+ - Integrante #3
 
 ### Objetivo:
 
