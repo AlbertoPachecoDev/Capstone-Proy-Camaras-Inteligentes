@@ -23,7 +23,7 @@ Casa inteligente con sistema de iluminación y vigilancia basado en arreglo de s
 
 ### Red de sensores vía I2C
 
-![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/09/I2C-communication-protocol-ESP32.png?quality=100&strip=all&ssl=1)
+![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/09/I2C-communication-protocol-ESP32.png?quality=50&strip=all&ssl=1)
 
 ### Tareas:
  1. Capturar señal micrófono
