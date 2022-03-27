@@ -57,6 +57,26 @@ El control automatizado de registro visual y auditivo se efectua en base al proc
 
 ### Componentes:
 
+- **ESP32-CAM OV2640 Wifi Bluetooth.**                       1       $220.11
+- **Convertidor USB Serial FTDI TTL FT232RL.**               1       $98.00
+- **Cable USB a Mini USB Tipo B.**                           1       $64.00
+- **Módulo Ads1115.**                                        1       $161.00
+- **Fuente de Alimentación 5V 2A / 9V 1A / 12V 1A.**         1       $62.00
+- **Led Amarillos 5mm.**                                     5       $15.00
+- **Led Rojos 5mm.**                                         5       $15.00
+- **Led Verdes 5mm.**                                        5       $15.00
+- **Cables Dupont Largos h-h (hembra-hembra).**              40      $93.00
+- **Buzzer.**                                                1       $36.00
+- **Resistencias.**          
+
+### Software
+- **Arduino IDE**
+- **MQTT**
+- **Node-red**
+- **MySQL**
+- **Grafana**
+
+
 Arreglo de micrófonos vía I2C:
 1. [QuadMic 4-Microphone Array](https://makersportal.com/shop/quadmic-4-microphone-array)
 
@@ -78,3 +98,25 @@ Arreglo de micrófonos vía I2C:
 https://www.instructables.com/PCF8574-GPIO-Extender-With-Arduino-and-NodeMCU/
 
 ![](https://www.pcboard.ca/image/catalog/products/pcf8574/pcf8574-addressing.jpg)
+
+----
+
+## Introducción
+
+## Alcances
+
+## Justificación
+
+## Funcionamiento Esperado
+
+## Circuito a realizar
+
+## Conclusiones
+
+## Trabajo a futuro
+
+## Referencias
+
+
+
+
