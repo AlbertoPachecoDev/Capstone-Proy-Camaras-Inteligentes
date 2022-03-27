@@ -9,7 +9,7 @@
 
 ### Objetivo:
 
-Casa inteligente con sistema de iluminación y vigilancia basado en arreglo de sensores y videocámaras con seguimiento inteligente (automatic motion tracking).
+Implementar un sistema de iluminación y vigilancia basado en arreglo de sensores y videocámaras con seguimiento inteligente (automatic motion tracking) pensado inicialmente para exteriores de casas habitación.
 
 ### Descripción:
 
