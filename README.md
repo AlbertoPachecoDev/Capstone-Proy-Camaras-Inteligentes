@@ -18,7 +18,7 @@ En una casa-habitación, en vez de instalar muchas cámaras de vigilancia, es po
 
 ### Objetivo
 
-Implementar un sistema de iluminación y vigilancia basado en arreglo de sensores y videocámaras con seguimiento inteligente (automatic motion tracking) pensado inicialmente para exteriores de casas habitación.
+Implementar un sistema de iluminación y vigilancia basado en arreglo de sensores y videocámaras con seguimiento inteligente (_automatic motion tracking_) pensado inicialmente para exteriores de casas habitación.
 
 ### Descripción
 
