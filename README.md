@@ -56,11 +56,13 @@ El control automatizado de registro visual y auditivo se efectua en base al proc
 ### Requerimientos de Complejidad:
 
 80% Análisis Datos:  Análisis señales captadas
-- Audio: potencia RMS (energía)
-- Ultrasonido: distancia objeto detectado
-- Detectar patrones
-- Triangular fuente
-- Funciones de control y alerta
+- Escalable
+- Análisis de información
+ - Audio: potencia RMS (energía)
+ - Ultrasonido: distancia objeto detectado
+ - Detectar patrones
+ - Triangular fuente
+ - Funciones de control y alerta
 
 ### Red de sensores vía I2C
 
