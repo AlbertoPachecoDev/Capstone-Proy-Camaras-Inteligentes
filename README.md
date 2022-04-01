@@ -10,7 +10,7 @@
  - Integrante #3
 
 ### Problema
-En una casa-habitación, en vez de instalar muchas cámaras de vigilancia, es posible mover una sola cámara hacia algunas fuentes de interés (arreglo de sensores)?
+En una casa-habitación, en vez de instalar muchas cámaras de vigilancia, es posible mover una sola cámara hacia algunos objetos de interés (arreglo de sensores)?
 
  - **Subproblema #1 De noche:** Identificar determinados ruidos nocturnos (energía-patrón y análisis de datos) se fusiona con los sensores de presencia para filtrar eventos de interés y activar además la iluminación de una manera más adecuada y eficiente. 
  
