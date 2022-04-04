@@ -5,28 +5,42 @@
 ## Proyecto Capstone Diplomado IoT de Samsung Innovación Campus y Código IoT
 
 ### Integrantes:
- - Representante: Alberto Pacheco González (UACH)
- - Integrante #2
- - Integrante #3
+ - Alberto Pacheco González (UACH)
 
 ### Problema
-En una casa-habitación, en vez de instalar muchas cámaras de vigilancia, es posible mover una sola cámara hacia algunos objetos de interés (arreglo de sensores)?
+Optimizar la iluminación y el posicionamiento y registro de una cámara de vigilancia analizando constantemente datos para filtrar y detectar fuentes y posición de eventos, mejorando la calidad de su registro (e.g. no grabar tantos eventos, con mala iluminación, fuera del campo de visión).
 
- - **Subproblema #1 De noche:** Identificar determinados ruidos nocturnos (energía-patrón y análisis de datos) se fusiona con los sensores de presencia para filtrar eventos de interés y activar además la iluminación de una manera más adecuada y eficiente. 
+ - **Subproblema #1 De noche:** Fusionar red de sensores para controlar iluminación, posicionamiento, detección y registro. 
  
- - **Subproblema #2 De día:** Los ruidos "sospechosos", su frecuencia e intensidad cambia en el día (tráfico vehículos)
+ - **Subproblema #2 De día:** Ignorar ruidos no "sospechosos". 
+
+  > ![Sistema de Iluminación y Vigilancia Inteligente](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/72070e9e05f125d2737b1563c9dbbdb86ad8301a/CamaraMotorizada-demo-i2c.png)
+  >
+  > Sistema de Iluminación y Vigilancia Inteligente
 
 ### Objetivo
 
 Implementar un sistema de iluminación y vigilancia basado en arreglo de sensores y videocámaras con seguimiento inteligente (_automatic motion tracking_) pensado inicialmente para exteriores de casas habitación.
 
+### Beneficios
+ - Ahorro de energía
+   -  Iluminación: encendido/apagado programado, intensidad auto-ajustable
+   -  Vigilancia: activación y posicionamiento de cámaras basada en el contexto
+ - Ahorro de memoria (registro datos)
+ - Acopio y analítica de datos
+ - Probar distintos algoritmos/modelos
+
+### Preguntas de investigación
+ - Adquisición
+ - Reconocimiento
+ - Filtrado
+ - Ubicación
+ - Registro
+
+
 ### Descripción
 
 El control automatizado de registro visual y auditivo se efectua en base al procesamiento de datos recolectados en un arreglo de micrófonos y sensores de presencia. Los micrófonos y detectores de presencia ubicados en los extremos de las zonas de interés, permiten iluminar las zonas activadas y controlar en base al análisis de los datos captados, la posición de la cámara activando el respectivo motor CD de forma continua y en tiempo real. El registro visual y auditivo del evento solo se efectúa cuando se activa y posiciona la cámara, optimizando de esta forma la seguridad, almacenamiento y uso de energía.
-
-  > ![Sistema de Iluminación y Vigilancia Inteligente](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/72070e9e05f125d2737b1563c9dbbdb86ad8301a/CamaraMotorizada-demo-i2c.png)
-  >
-  > Sistema de Iluminación y Vigilancia Inteligente
 
 ### Tareas:
 - Integrante #1:
