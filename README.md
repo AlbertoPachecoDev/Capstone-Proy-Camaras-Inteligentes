@@ -11,7 +11,7 @@
 
 ### Problema
 
-La UJAT cuenta con una colección de libros antiguos que datan de 300 años, dicha colección necesita una infraestructura especial que permita ofrecer un tratamiento especial de restauración y conservación. Entre los factores que afectan estos libros se encuentran: la humedad, la temperatura, las plagas, entre otros. Otros requerimientos importantes son: la seguridad y vigilancia de dicho patrimonio cultural e histórico y ofrecer todas estas facilidades a un costo razonable.
+La UJAT cuenta con una colección de libros antiguos que datan de 300 años, dicha colección necesita una infraestructura especial que permita ofrecer un tratamiento especial de restauración y conservación. Entre los factores que afectan estos libros se encuentran: la humedad, la temperatura, las plagas, entre otros. Otros requerimientos importantes son: el control de acceso restringido, la seguridad y vigilancia de este patrimonio cultural e histórico y ofrecer además estas facilidades a un costo razonable.
 
 ### Objetivo
 
@@ -34,9 +34,23 @@ Implementar un sistema de seguridad y preservación del acervo de libros antiguo
  - Acopio y analítica de datos
  - Probar distintos algoritmos/modelos
 
+### Antecedentes (Contexto)
+
+La biblioteca “José Martí” perteneciente al Sistema Bibliotecario de la Universidad Juárez Autónoma de Tabasco es la más antigua de las nueve que lo conforman. Su historia ha estado vinculada con la vida cultural e intelectual de la ciudad, pues fue inaugurada el 12 de octubre de 1944.
+En la actualidad  es la  biblioteca histórica de la UJAT, siendo uno de los principales repositorios de la historia del estado. Cuenta con un acervo aproximado de más de 30,000 volúmenes, entre los que se cuentan obras de cultura general y colecciones locales únicas en su género.
+
+Aunado a estas valiosas colecciones tenemos obras que datan de  más de dos siglos como Las Obras de Santa Teresa, 1670 o Vida y hechos del Ingenioso Caballero don Quijote de la Mancha, de don   Miguel de Cervantes Saavedra., en una edición de 1732. Se cuenta con una de las dos hemerotecas organizadas del estado, la que alberga materiales documentales valiosos para la vida de Tabasco como son colecciones de periódicos y revistas locales desde  finales del siglo XIX  (Reforma desde 1869, El Progreso, Revistas Alfa y Alba, Revista Azul, etc.), el periódico Redención  de la época del Lic. Tomás Garrido Canabal, y colecciones casi completas y desde los primeros números de periódicos locales como Presente, Rumbo Nuevo, Avance, entre otros.
+
+
 ### Descripción
 
-El control automatizado de registro visual y auditivo se efectua en base al procesamiento de datos recolectados en un arreglo de micrófonos y sensores de presencia. Los micrófonos y detectores de presencia ubicados en los extremos de las zonas de interés, permiten iluminar las zonas activadas y controlar en base al análisis de los datos captados, la posición de la cámara activando el respectivo motor CD de forma continua y en tiempo real. El registro visual y auditivo del evento solo se efectúa cuando se activa y posiciona la cámara, optimizando de esta forma la seguridad, almacenamiento y uso de energía.
+Implementar un sistema de preservación y protección del acervo de libros antiguos de la Biblioteca Histórica José Martí de la UJAT. El sistema consta de un conjunto de sensores para la detección de humedad, temperatura, humo y presencia. Dichos sensores permiten monitorear y registrar los rangos actuales e históricos para la adecuada preservación del acervo. En caso de que los sensores de humedad, temperatura y humo queden fuera de rango, se activarán los ventiladores y el deshumidificador. Los detectores de presencia permiten activar los actuadores para controlar los motores para ubicar las cámaras de vigilancia y la iluminación adecuada de las obras en exhibición.
+
+La vigilancia y preservación de bienes es una de las acciones que toman diariamente organizaciones, instituciones y ciudadanía. Por lo que se plantea un proyecto que puede ser aplicable en diferentes sectores que tengan estas necesidades: vigilancia externa y cuidado interno de un inmueble, dados los objetos que resguardan.
+
+Se propone vigilancia externa con optimización en cuanto a la iluminación y uso de cámaras, así como el cuidado y preservación de objetos, realizando la detección y registro de la humedad, temperatura, humo, y plagas, así como actuadores que ayudarán a mantener controlado el entorno. Esto mediante el uso de una red de sensores que se encuentren capturando y transmitiendo datos, se analizan los datos, permitiendo una mejor toma de decisiones sobre las condiciones que deben tener los espacios que guardan los objetos.
+ 
+Para la vigilancia externa, el control automatizado de registro visual y auditivo se efectúa en base al procesamiento de datos recolectados en un arreglo de micrófonos y sensores de presencia. Los micrófonos y detectores de presencia ubicados en los extremos de las zonas de interés permiten iluminar las zonas activadas y controlar en base al análisis de los datos captados, la posición de la cámara activando el respectivo motor CD de forma continua y en tiempo real. El registro visual y auditivo del evento solo se efectúa cuando se activa y posiciona la cámara, optimizando de esta forma la seguridad, almacenamiento y uso de energía.
 
 ### Tareas:
 - Integrante #1:
