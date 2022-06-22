@@ -41,6 +41,7 @@ En la actualidad  es la  biblioteca histórica de la UJAT, siendo uno de los pri
 
 Aunado a estas valiosas colecciones tenemos obras que datan de  más de dos siglos como Las Obras de Santa Teresa, 1670 o Vida y hechos del Ingenioso Caballero don Quijote de la Mancha, de don   Miguel de Cervantes Saavedra., en una edición de 1732. Se cuenta con una de las dos hemerotecas organizadas del estado, la que alberga materiales documentales valiosos para la vida de Tabasco como son colecciones de periódicos y revistas locales desde  finales del siglo XIX  (Reforma desde 1869, El Progreso, Revistas Alfa y Alba, Revista Azul, etc.), el periódico Redención  de la época del Lic. Tomás Garrido Canabal, y colecciones casi completas y desde los primeros números de periódicos locales como Presente, Rumbo Nuevo, Avance, entre otros.
 
+![libros](libros-antiguos-2.jpg)
 
 ### Descripción
 
