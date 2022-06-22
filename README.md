@@ -10,19 +10,21 @@
  - Rosalino Ovando Chio (UJAT)
 
 ### Problema
-Optimizar la iluminación y el posicionamiento y registro de una cámara de vigilancia analizando constantemente datos para filtrar y detectar fuentes y posición de eventos, mejorando la calidad de su registro (e.g. no grabar tantos eventos, con mala iluminación, fuera del campo de visión).
 
- - **Subproblema #1 De noche:** Fusionar red de sensores para controlar iluminación, posicionamiento, detección y registro. 
- 
- - **Subproblema #2 De día:** Ignorar ruidos no "sospechosos". 
-
-  > ![Sistema de Iluminación y Vigilancia Inteligente](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/72070e9e05f125d2737b1563c9dbbdb86ad8301a/CamaraMotorizada-demo-i2c.png)
-  >
-  > Sistema de Iluminación y Vigilancia Inteligente
+La UJAT cuenta con una colección de libros antiguos que datan de 300 años, dicha colección necesita una infraestructura especial que permita ofrecer un tratamiento especial de restauración y conservación. Entre los factores que afectan estos libros se encuentran: la humedad, la temperatura, las plagas, entre otros. Otros requerimientos importantes son: la seguridad y vigilancia de dicho patrimonio cultural e histórico y ofrecer todas estas facilidades a un costo razonable.
 
 ### Objetivo
 
-Implementar un sistema de iluminación y vigilancia basado en arreglo de sensores y videocámaras con seguimiento inteligente (_automatic motion tracking_) pensado inicialmente para exteriores de casas habitación.
+Implementar un sistema de seguridad y preservación del acervo de libros antiguos de la Biblioteca Histórica José Martí de la UJAT utilizando diversos sensores, actuadores y videocámara motorizada. 
+
+### Objetivos Específicos
+
+- Medir la humedad y temperatura
+- Detectar humo y plagas
+- Controlar la iluminación: ahorro de energía, seguridad y preservación
+- Controlar cámaras motorizadas de vigilancia
+- Controlar ventiladores para  climatizar salas
+- Controlar ventiladores en modo de extractor
 
 ### Beneficios
  - Ahorro de energía
@@ -31,14 +33,6 @@ Implementar un sistema de iluminación y vigilancia basado en arreglo de sensore
  - Ahorro de memoria (registro datos)
  - Acopio y analítica de datos
  - Probar distintos algoritmos/modelos
-
-### Preguntas de investigación
- - Adquisición
- - Reconocimiento
- - Filtrado
- - Ubicación
- - Registro
-
 
 ### Descripción
 
@@ -105,6 +99,15 @@ El control automatizado de registro visual y auditivo se efectua en base al proc
 - **MySQL**
 - **Grafana**
 
+### Subsistema de Iluminación y Vigilancia Inteligente
+
+ - **Subproblema #1 De noche:** Fusionar red de sensores para controlar iluminación, posicionamiento, detección y registro. 
+ 
+ - **Subproblema #2 De día:** Ignorar ruidos no "sospechosos". 
+
+  > ![Sistema de Iluminación y Vigilancia Inteligente](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/72070e9e05f125d2737b1563c9dbbdb86ad8301a/CamaraMotorizada-demo-i2c.png)
+  >
+  > Sistema de Iluminación y Vigilancia Inteligente
 
 Arreglo de micrófonos vía I2C:
 1. [QuadMic 4-Microphone Array](https://makersportal.com/shop/quadmic-4-microphone-array)
