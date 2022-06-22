@@ -1,11 +1,13 @@
-# Sistema de Iluminación y Vigilancia Inteligente 
+## Sistema de Seguridad y Preservación del Acervo de la Biblioteca Histórica UJAT José Martí
 
 ![](https://github.com/AlbertoPachecoDev/Capstone-Proy-Camaras-Inteligentes/blob/main/logos.jpg)
 
 ## Proyecto Capstone Diplomado IoT de Samsung Innovación Campus y Código IoT
 
 ### Integrantes:
- - Alberto Pacheco González (UACH)
+ - Alberto Pacheco González (UACH) [Representante]
+ - Erika Yunuen Morales Mateos (UJAT)
+ - Rosalino Ovando Chio (UJAT)
 
 ### Problema
 Optimizar la iluminación y el posicionamiento y registro de una cámara de vigilancia analizando constantemente datos para filtrar y detectar fuentes y posición de eventos, mejorando la calidad de su registro (e.g. no grabar tantos eventos, con mala iluminación, fuera del campo de visión).
